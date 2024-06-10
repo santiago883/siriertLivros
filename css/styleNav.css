@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav {
+    width: 100%;
+    padding:  20px 0;
+    font-family: "Ubuntu", sans-serif ;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+nav h2{
+    margin: 0 20px;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+nav ul:last-child{
+    padding-right: 30px;
+}
+
+nav ul li{
+    margin-right: 25px;
+    
+}
+
+nav ul li a {
+    text-decoration:  none;
+}
